@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import pandas as pd
 
-# Configuration pour l'affichage
 plt.rcParams['font.size'] = 10
 plt.rcParams['figure.figsize'] = (12, 5)
 
@@ -214,6 +213,5 @@ if __name__ == "__main__":
     except FileNotFoundError:
         print("Création du fichier de données...")
         creer_fichier_donnees()
-    
-    # Exécution du programme principal
+        
     main()
